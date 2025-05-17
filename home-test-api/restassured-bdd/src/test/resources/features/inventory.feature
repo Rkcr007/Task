@@ -9,10 +9,10 @@ Then the response status code should be 200
 And the response should contain at least 9 items
 And each item should have fields "id", "name", "price", "image"
 
-# Scenario: Filter by id
-# When I send a GET request to "/api/inventory/filter?id=3"
-# Then the response status code should be 200
-# And the response should contain an item with id "3", name "Baked Rolls x 8", price "$10", and image "roll.png"
+Scenario: Filter by id
+When I send a GET request to "/api/inventory/filter?id=3"
+Then the response status code should be 200
+And the response should contain an item with id "3", name "Baked Rolls x 8", price "$10", and image "roll.png"
 
 Scenario: Add item for non existent id
 When I send a POST request to "/api/inventory/add" with body
