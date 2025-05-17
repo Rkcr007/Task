@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.432 s <<< FAILURE! -- in TestSuite
+com.example.api.RunCucumberTestNG.runScenario["Negative - Get inventory with invalid endpoint", "Inventory API"](6) -- Time elapsed: 0.054 s <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<400>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.example.api.InventoryStepDefs.the_response_status_code_should_be(InventoryStepDefs.java:33)
+	at ✽.the response status code should be 404(file:///Users/rakeshkumarbarik/Downloads/home-test-api/restassured-bdd/src/test/resources/features/inventory.feature:43)
+

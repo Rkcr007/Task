@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.432" tests="7" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="surefire.suiteXmlFiles" value="testng.xml"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/rakeshkumarbarik/Downloads/home-test-api/restassured-bdd/target/test-classes:/Users/rakeshkumarbarik/Downloads/home-test-api/restassured-bdd/target/classes:/Users/rakeshkumarbarik/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/rakeshkumarbarik/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rakeshkumarbarik/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/rakeshkumarbarik/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/rakeshkumarbarik/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/rakeshkumarbarik/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/rakeshkumarbarik/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/rakeshkumarbarik/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-junit/7.14.0/cucumber-junit-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/rakeshkumarbarik/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-testng/7.14.0/cucumber-testng-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/rakeshkumarbarik/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/rakeshkumarbarik/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/rakeshkumarbarik/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/rakeshkumarbarik/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/rakeshkumarbarik/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/rakeshkumarbarik/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/rakeshkumarbarik/Downloads/home-test-api/restassured-bdd/target/surefire/surefirebooter-20250517142650231_3.jar /Users/rakeshkumarbarik/Downloads/home-test-api/restassured-bdd/target/surefire 2025-05-17T14-26-50_096-jvmRun1 surefire-20250517142650231_1tmp surefire_0-20250517142650231_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/rakeshkumarbarik/Downloads/home-test-api/restassured-bdd/target/test-classes:/Users/rakeshkumarbarik/Downloads/home-test-api/restassured-bdd/target/classes:/Users/rakeshkumarbarik/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/rakeshkumarbarik/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rakeshkumarbarik/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/rakeshkumarbarik/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/rakeshkumarbarik/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/rakeshkumarbarik/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/rakeshkumarbarik/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/rakeshkumarbarik/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/rakeshkumarbarik/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-junit/7.14.0/cucumber-junit-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/rakeshkumarbarik/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/rakeshkumarbarik/.m2/repository/io/cucumber/cucumber-testng/7.14.0/cucumber-testng-7.14.0.jar:/Users/rakeshkumarbarik/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/rakeshkumarbarik/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/rakeshkumarbarik/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/rakeshkumarbarik/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/rakeshkumarbarik/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/rakeshkumarbarik/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/rakeshkumarbarik/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/rakeshkumarbarik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/rakeshkumarbarik/Downloads/home-test-api/restassured-bdd"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/rakeshkumarbarik/Downloads/home-test-api/restassured-bdd/target/surefire/surefirebooter-20250517142650231_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="user.name" value="rakeshkumarbarik"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/rakeshkumarbarik/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/y7/kl8_rk7j2xg25rv9gfgqtvt00000gn/T/"/>
+    <property name="java.version" value="17.0.3.1"/>
+    <property name="user.dir" value="/Users/rakeshkumarbarik/Downloads/home-test-api/restassured-bdd"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/rakeshkumarbarik/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Get all menu items&quot;, &quot;Inventory API&quot;](1)" classname="com.example.api.RunCucumberTestNG" time="3.036">
+    <system-out><![CDATA[
+Scenario: Get all menu items                                      # src/test/resources/features/inventory.feature:6
+  When I send a GET request to "/api/inventory"                   # com.example.api.InventoryStepDefs.i_send_a_get_request_to(java.lang.String)
+  Then the response status code should be 200                     # com.example.api.InventoryStepDefs.the_response_status_code_should_be(java.lang.Integer)
+DEBUG: {"data":[{"id":"1","name":"Classic Muzzarella","image":"classic.png","price":"$8"},{"id":"2","name":"Crispy Bacon","image":"bacon.png","price":"$9"},{"id":"3","name":"Baked Rolls x 8","image":"roll.png","price":"$10"},{"id":"4","name":"Garlic Mix","image":"garlicmix.png","price":"$9"},{"id":"5","name":"Margarita","image":"margarita.png","price":"$9"},{"id":"6","name":"Veggie","image":"veggie.png","price":"$8"},{"id":"7","name":"Super Pepperoni","image":"extrapeperoni.png","price":"$10"},{"id":"8","name":"Evergreen Cream","image":"evergreen.png","price":"$9"},{"id":"9","name":"Muzzarella BBQ","image":"bbqcheese.png","price":"$9"}]}
+  And the response should contain at least 9 items                # com.example.api.InventoryStepDefs.the_response_should_contain_at_least_items(java.lang.Integer)
+DEBUG: {"data":[{"id":"1","name":"Classic Muzzarella","image":"classic.png","price":"$8"},{"id":"2","name":"Crispy Bacon","image":"bacon.png","price":"$9"},{"id":"3","name":"Baked Rolls x 8","image":"roll.png","price":"$10"},{"id":"4","name":"Garlic Mix","image":"garlicmix.png","price":"$9"},{"id":"5","name":"Margarita","image":"margarita.png","price":"$9"},{"id":"6","name":"Veggie","image":"veggie.png","price":"$8"},{"id":"7","name":"Super Pepperoni","image":"extrapeperoni.png","price":"$10"},{"id":"8","name":"Evergreen Cream","image":"evergreen.png","price":"$9"},{"id":"9","name":"Muzzarella BBQ","image":"bbqcheese.png","price":"$9"}]}
+  And each item should have fields "id", "name", "price", "image" # com.example.api.InventoryStepDefs.each_item_should_have_fields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add item for non existent id&quot;, &quot;Inventory API&quot;](2)" classname="com.example.api.RunCucumberTestNG" time="0.442">
+    <system-out><![CDATA[
+Scenario: Add item for non existent id                         # src/test/resources/features/inventory.feature:17
+  When I send a POST request to "/api/inventory/add" with body # com.example.api.InventoryStepDefs.i_send_a_post_request_to_with_body(java.lang.String,io.cucumber.datatable.DataTable)
+    | id | name     | image        | price |
+    | 10 | Hawaiian | hawaiian.png | $14   |
+  Then the response status code should be 200                  # com.example.api.InventoryStepDefs.the_response_status_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Add item for existent id&quot;, &quot;Inventory API&quot;](3)" classname="com.example.api.RunCucumberTestNG" time="0.052">
+    <system-out><![CDATA[
+Scenario: Add item for existent id                             # src/test/resources/features/inventory.feature:23
+  When I send a POST request to "/api/inventory/add" with body # com.example.api.InventoryStepDefs.i_send_a_post_request_to_with_body(java.lang.String,io.cucumber.datatable.DataTable)
+    | id | name     | image        | price |
+    | 10 | Hawaiian | hawaiian.png | $14   |
+  Then the response status code should be 400                  # com.example.api.InventoryStepDefs.the_response_status_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Try to add item with missing information&quot;, &quot;Inventory API&quot;](4)" classname="com.example.api.RunCucumberTestNG" time="0.046">
+    <system-out><![CDATA[
+Scenario: Try to add item with missing information                           # src/test/resources/features/inventory.feature:29
+  When I send a POST request to "/api/inventory/add" with body               # com.example.api.InventoryStepDefs.i_send_a_post_request_to_with_body(java.lang.String,io.cucumber.datatable.DataTable)
+    | name     | image        | price |
+    | Hawaiian | hawaiian.png | $14   |
+  Then the response status code should be 400                                # com.example.api.InventoryStepDefs.the_response_status_code_should_be(java.lang.Integer)
+  And the response should contain the message "Not all requirements are met" # com.example.api.InventoryStepDefs.the_response_should_contain_the_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate recent added item is present in the inventory&quot;, &quot;Inventory API&quot;](5)" classname="com.example.api.RunCucumberTestNG" time="0.082">
+    <system-out><![CDATA[
+Scenario: Validate recent added item is present in the inventory                                               # src/test/resources/features/inventory.feature:36
+  When I send a GET request to "/api/inventory"                                                                # com.example.api.InventoryStepDefs.i_send_a_get_request_to(java.lang.String)
+  Then the response status code should be 200                                                                  # com.example.api.InventoryStepDefs.the_response_status_code_should_be(java.lang.Integer)
+DEBUG: {"data":[{"id":"1","name":"Classic Muzzarella","image":"classic.png","price":"$8"},{"id":"2","name":"Crispy Bacon","image":"bacon.png","price":"$9"},{"id":"3","name":"Baked Rolls x 8","image":"roll.png","price":"$10"},{"id":"4","name":"Garlic Mix","image":"garlicmix.png","price":"$9"},{"id":"5","name":"Margarita","image":"margarita.png","price":"$9"},{"id":"6","name":"Veggie","image":"veggie.png","price":"$8"},{"id":"7","name":"Super Pepperoni","image":"extrapeperoni.png","price":"$10"},{"id":"8","name":"Evergreen Cream","image":"evergreen.png","price":"$9"},{"id":"9","name":"Muzzarella BBQ","image":"bbqcheese.png","price":"$9"},{"id":"10","name":"Hawaiian","image":"hawaiian.png","price":"$14"}]}
+  And the response should contain an item with id "10", name "Hawaiian", price "$14", and image "hawaiian.png" # com.example.api.InventoryStepDefs.the_response_should_contain_an_item_with_id_name_price_and_image(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Negative - Get inventory with invalid endpoint&quot;, &quot;Inventory API&quot;](6)" classname="com.example.api.RunCucumberTestNG" time="0.054">
+    <failure message="expected:&lt;404&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<404> but was:<400>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.example.api.InventoryStepDefs.the_response_status_code_should_be(InventoryStepDefs.java:33)
+	at ✽.the response status code should be 404(file:///Users/rakeshkumarbarik/Downloads/home-test-api/restassured-bdd/src/test/resources/features/inventory.feature:43)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Negative - Get inventory with invalid endpoint  # src/test/resources/features/inventory.feature:41
+  When I send a GET request to "/api/inventory/invalid"   # com.example.api.InventoryStepDefs.i_send_a_get_request_to(java.lang.String)
+  Then the response status code should be 404             # com.example.api.InventoryStepDefs.the_response_status_code_should_be(java.lang.Integer)
+      java.lang.AssertionError: expected:<404> but was:<400>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.example.api.InventoryStepDefs.the_response_status_code_should_be(InventoryStepDefs.java:33)
+	at ✽.the response status code should be 404(file:///Users/rakeshkumarbarik/Downloads/home-test-api/restassured-bdd/src/test/resources/features/inventory.feature:43)
+
+  And the response should contain the message "Not Found" # com.example.api.InventoryStepDefs.the_response_should_contain_the_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Negative - Add item with missing all fields&quot;, &quot;Inventory API&quot;](7)" classname="com.example.api.RunCucumberTestNG" time="0.045">
+    <system-out><![CDATA[
+Scenario: Negative - Add item with missing all fields                        # src/test/resources/features/inventory.feature:46
+  When I send a POST request to "/api/inventory/add" with body               # com.example.api.InventoryStepDefs.i_send_a_post_request_to_with_body(java.lang.String,io.cucumber.datatable.DataTable)
+    | name    |
+    | [empty] |
+  Then the response status code should be 400                                # com.example.api.InventoryStepDefs.the_response_status_code_should_be(java.lang.Integer)
+  And the response should contain the message "Not all requirements are met" # com.example.api.InventoryStepDefs.the_response_should_contain_the_message(java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>
